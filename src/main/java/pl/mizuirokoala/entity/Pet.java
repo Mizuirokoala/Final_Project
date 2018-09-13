@@ -6,6 +6,7 @@ import pl.mizuirokoala.role.User;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "pets")
 public class Pet {
 
     @Id
